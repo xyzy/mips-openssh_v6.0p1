@@ -28,7 +28,7 @@ SSH_KEYSIGN=$(libexecdir)/ssh-keysign
 SSH_PKCS11_HELPER=$(libexecdir)/ssh-pkcs11-helper
 PRIVSEP_PATH=/var/empty
 SSH_PRIVSEP_USER=sshd
-STRIP_OPT=-s
+#STRIP_OPT=-s
 
 PATHS= -DSSHDIR=\"$(sysconfdir)\" \
 	-D_PATH_SSH_PROGRAM=\"$(SSH_PROGRAM)\" \
@@ -41,13 +41,14 @@ PATHS= -DSSHDIR=\"$(sysconfdir)\" \
 
 CC=mips-gcc
 LD=mips-gcc
-CFLAGS=-g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -fno-builtin-memset -std=gnu99 
+CFLAGS=-g -O2 -s -static -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -fno-builtin-memset -std=gnu99 
 CPPFLAGS=-I. -I$(srcdir) -I/home/hzy19930315/mips-install/include -I/home/hzy19930315/mips-install/include  $(PATHS) -DHAVE_CONFIG_H
 LIBS=-lcrypto -ldl -lutil -lz  -lcrypt
 SSHLIBS=
 SSHDLIBS=
 LIBEDIT=
-AR=/usr/bin/ar
+AR=mips-ar
+#STRIP=mips-strip
 AWK=mawk
 RANLIB=mips-ranlib
 INSTALL=/usr/bin/install -c
