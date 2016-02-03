@@ -1,0 +1,1 @@
+pam_static.lo pam_static.o: pam_static.c

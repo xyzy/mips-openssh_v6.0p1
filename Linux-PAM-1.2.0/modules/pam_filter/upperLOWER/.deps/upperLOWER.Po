@@ -1,0 +1,189 @@
+upperLOWER.o upperLOWER.o: upperLOWER.c ../../../config.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/ctype.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/features.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_config.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_arch_features.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/cdefs.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/types.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/wordsize.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stddef.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/kernel_types.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/typesizes.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/pthreadtypes.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sched.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_touplow.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/stdio.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_stdio.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/wchar.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/wchar.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_mutex.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/pthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sched.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/time.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/time.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_clk_tck.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/signal.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigset.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/initspin.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_pthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stdarg.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/stdio_lim.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/stdlib.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/waitflags.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/waitstatus.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/endian.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/endian.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/types.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/select.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/select.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/sysmacros.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/alloca.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/syslog.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/syslog.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/time.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/unistd.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/posix_opt.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/environments.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/confname.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/getopt.h \
+  ../pam_filter.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/file.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/fcntl.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/fcntl.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sgidefs.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uio.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/stat.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/stat.h \
+  ../../../libpam/include/security/pam_modutil.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/pwd.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/grp.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/shadow.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/paths.h \
+  ../../../libpam/include/security/_pam_types.h
+
+../../../config.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/ctype.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/features.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_config.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_arch_features.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/cdefs.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/types.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/wordsize.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stddef.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/kernel_types.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/typesizes.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/pthreadtypes.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sched.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_touplow.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/stdio.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_stdio.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/wchar.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/wchar.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_mutex.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/pthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sched.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/time.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/time.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_clk_tck.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/signal.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigset.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/initspin.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_pthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stdarg.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/stdio_lim.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/stdlib.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/waitflags.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/waitstatus.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/endian.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/endian.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/types.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/select.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/select.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/sysmacros.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/alloca.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/syslog.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/syslog.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/time.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/unistd.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/posix_opt.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/environments.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/confname.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/getopt.h:
+
+../pam_filter.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/file.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/fcntl.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/fcntl.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sgidefs.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uio.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/stat.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/stat.h:
+
+../../../libpam/include/security/pam_modutil.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/pwd.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/grp.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/shadow.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/paths.h:
+
+../../../libpam/include/security/_pam_types.h:

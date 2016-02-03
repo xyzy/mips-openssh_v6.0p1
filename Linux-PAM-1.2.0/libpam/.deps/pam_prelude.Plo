@@ -1,0 +1,91 @@
+pam_prelude.lo pam_prelude.o: pam_prelude.c \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/stdio.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/features.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_config.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_arch_features.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/cdefs.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stddef.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/types.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/wordsize.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/kernel_types.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/typesizes.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/pthreadtypes.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sched.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_stdio.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/wchar.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/wchar.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_mutex.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/pthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sched.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/time.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/time.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_clk_tck.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/signal.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigset.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/initspin.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_pthread.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stdarg.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/bits/stdio_lim.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/syslog.h \
+  /home/hzy19930315/cross-compiler-mips/bin/../include/sys/syslog.h
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/stdio.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/features.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_config.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_arch_features.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/cdefs.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stddef.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/types.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/wordsize.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/kernel_types.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/typesizes.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/pthreadtypes.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sched.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_stdio.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/wchar.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/wchar.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_mutex.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/pthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sched.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/time.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/time.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_clk_tck.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/signal.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigset.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/initspin.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/sigthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/uClibc_pthread.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../gcc/include/stdarg.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/bits/stdio_lim.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/syslog.h:
+
+/home/hzy19930315/cross-compiler-mips/bin/../include/sys/syslog.h:
